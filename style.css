@@ -1,0 +1,168 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 {
+    background: #1f2937;
+    color: whitesmoke;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 5em;
+}
+
+.subsection-1-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subsection-1-2 {
+    flex: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0; 
+    gap: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    color: rgb(209, 209, 209);
+}
+
+.content-1 {
+    width: 500px;
+}
+
+.subsection-1-2 .text-1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button {
+    padding: 3px 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.content-2 {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
+
+.section-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0; 
+    gap: 20px;
+}
+
+.subsection-2-1 {
+    color: #1f2937;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.subsection-2-2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.subsection-2-2 .container {
+    max-width: 100px;
+    text-align: center;
+}
+
+.subsection-2-2 .blank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border: 5px blue;
+}
+
+.section-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 5em; 
+    margin: 0;
+    gap: 20px;
+    background: cornsilk;
+}
+
+.section-3 .container {
+    max-width: 700px;
+}
+
+.container .text-1 {
+    font-style: italic;
+    font-size: 20px;
+    color: darkcyan;
+}
+
+.section-3 .text-2 {
+    text-align: end;
+    font-size: 10px;
+    padding-right: 20px;
+}
+
+
+.body-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: skyblue;
+    padding: 1em 4em;
+    width: 700px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    border-radius: 4px;
+}
+
+.container .subtext-1 {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container .subtext-2 {
+    color: rgb(236, 236, 236);
+    font-size: 15px;
+}
+
+.section-4 .button {
+    background: skyblue;
+    border: 1 white;
+    color: whitesmoke;
+}
+
+.section-5 {
+    background: #1f2937;
+    color: whitesmoke;
+    padding: 3px 5em;
+}
+
+.footer {
+    text-align: center;
+}
